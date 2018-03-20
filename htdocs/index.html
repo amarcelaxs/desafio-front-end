@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"-->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+  
+    <style type="text/css">
+  </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar mobile navbar-header mx-auto  ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon mb-1"></span>
+          <span class="navbar-toggler-icon mb-1"></span>
+          <span class="navbar-toggler-icon mb-1"></span>
+        </button>
+        <a class="navbar-brand mx-auto img-responsive" href="#">
+          <img src="assets/media/logo.png"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" >Brasil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mundo</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="destaques">
+      <div class="container">
+        <div class="row mb-lg-5">
+          <div class="noticia-destaque col-12 col-lg-6">
+            <div class="arrow float-right">
+              <a id="link_noticia" href="" ><img src="assets/media/share-square-white.svg" alt="Logo" /></a>
+            </div>
+            <img id="img_noticia" src="" class=" img-fluid img-responsive">
+            <div class="texto">
+              <a id="link_noticia" href="">
+                <p  class="type mb-0 noticia_type"></p>
+                <p class="title mb-0 noticia_title"></p>
+                <p class="min-text mb-0 noticia_description"></p>
+              </a>
+            </div>
+          </div>
+          <div class="noticia-destaque col-12 col-lg-6">
+            <div class="arrow float-right">
+              <a id="link_noticia2" href="" ><img src="assets/media/share-square-white.svg" alt="Logo" /></a>
+            </div>
+            <img  id="img_noticia2" src=""  class=" img-fluid img-responsive">
+            <div class="texto ">
+              <a id="link_noticia2" href="" >
+                <p  class="type mb-0 noticia2_type"></p>
+                <p class="title mb-0 noticia2_title"></p>
+                <p class="min-text mb-0 noticia2_description"></p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="d-lg-none d-block">
+        <div class="row">
+          <div class="col-lg-6 col-12 noticia-col">
+            <div class="col-lg-6 col-4 no-padding  noticias-left">
+              <img id="img_comportamento" src="" class=" img-fluid img-responsive">
+            </div>
+            <div class="col-lg-6 col-8  no-padding  mobile_col noticias-left ">
+              <div class="texto">
+                <a id="link_comportamento" href="">
+                  <p  class="type comportamento_type green-title mb-0"></p>
+                  <p class="title mb-0 comportamento_title"></p>
+                  <p class="min-text comportamento_description mb-0"></p>
+                </a>                
+             </div>
+             <div class="arrow float-left">
+                  <a id="link_comportamento" href=""><img src="assets/media/share-square.svg" alt="Logo" /></a>
+              </div> 
+            </div>            
+          </div>
+          <div class="col-lg-6 col-12 noticia-col">
+            <hr class="d-lg-none d-block">
+            <div class="col-lg-6 col-4  no-padding  noticias-left">
+              <img  id="img_estilo" src="" class="img-fluid img-responsive">
+            </div>
+            <div class="col-lg-6 col-8 no-padding  noticias-left ">
+              <div class="texto">
+                <a id="link_estilo" href="" >
+                  <p  class="type mb-0 estilo_type"></p>
+                  <p class="title estilo_title mb-0"></p>
+                  <p class="min-text mb-0 estilo_description"></p>
+                </a>
+              </div>
+              <div class="arrow float-left">
+                  <a id="link_estilo"  class="estilo"><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mini-noticias">
+          <div class="col-12  col-lg-3 noticia-col ">
+            <hr class="d-lg-none d-block">
+            <img id="img_rural" src="" class=" img-fluid img-responsive">
+            <div class="texto">
+              <a  id="link_rural" href="" > 
+                <p  class="type mb-0 mb-lg-0 rural_type"></p>
+                <p class="title  rural_title mb-4 mb-lg-0"></p>
+                <p class="min-text mb-lg-0 rural_description"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_rural" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+          <div class="col-12  col-lg-3 noticia-col">
+            <hr class="d-lg-none d-block">
+            <img id="img_esporte" src="" class=" img-fluid img-responsive">
+            <div class="texto ">
+              <a id="link_esporte" href="" >
+                <p  class="type mb-lg-0 mb-0 esporte_type "></p>
+                <p class="title esporte_title mb-4 mb-lg-0"></p>
+                <p class="min-text esporte_description mb-lg-0"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_esporte" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+          <div class="col-12  col-lg-3 noticia-col">
+            <hr class="d-lg-none d-block">
+            <img  id="img_educacao" src="" class=" img-fluid img-responsive">
+            <div class="texto">
+              <a id="link_educacao" href="" > 
+                <p  class="type mb-0 mb-lg-0 educacao_type "></p>
+                <p class="title educacao_title mb-lg-0 mb-4"></p>
+                <p class="min-text educacao_description mb-lg-0"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_educacao" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 noticia-col">
+            <hr class="d-lg-none d-block">
+            <img  id="img_ecologia" src="" class=" img-fluid img-responsive">
+            <div class="texto">
+              <a  id="link_ecologia" href="" >
+                <p  class="type ecologia_type  mb-lg-0"></p>
+                <p class="title ecologia_title mb-lg-0 mb-4"></p>
+                <p class="min-text ecologia_description mb-lg-0"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_ecologia" href=""  class="share"><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row market">
+            <div class="mx-auto propaganda">
+              Advertising 728x90
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="brasil">
+      <div class="container">
+        <div class="row  mini-noticias">
+          <div class="col-12 country">
+            <p class="mb-lg-0 mb-0" id="section_name_brasil" ></p>
+          </div>
+          <div class="col-lg-3 col-12  noticia-col ">
+            <img  id="img_natureza" src=""  class=" img-fluid img-responsive">
+            <div class="texto">
+              <a id="link_natureza" href=""  > 
+                <p  class="type natureza_type mb-lg-0 mb-0"></p>
+                <p class="title  natureza_title mb-5 mb-lg-0"></p>
+                <p class="min-text  natureza_description mb-lg-0"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_natureza" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 noticia-col">
+            <hr class="d-lg-none d-block">
+            <img  id="img_cidades" src=""  class=" img-fluid img-responsive">
+            <div class="texto ">
+              <a id="link_cidades" href="" > 
+                <p  class="type mb-lg-0 mb-0  cidades_type"></p>
+                <p class="title  cidades_title mb-lg-0 mb-5"></p>
+                <p class="min-text  cidades_description mb-lg-0 mb-3"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_cidades" href=""  class="share"><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 noticia-col">
+            <hr class="d-lg-none d-block">
+            <img id="img_mundo" src=""  class=" img-fluid img-responsive">
+            <div class="texto">
+              <a id="link_mundo" href="" > 
+                <p  class="type mundo_type mb-lg-0 mb-0"></p>
+                <p class="title  mundo_title mb-5 mb-lg-0"></p>
+                <p class="min-text mundo_description mb-lg-0 mb-3"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_mundo" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12 noticia-col">
+            <hr class="d-lg-none d-block">
+            <img  id="img_turismo" src=""   class=" img-fluid img-responsive">
+            <div class="texto">
+              <a id="link_turismo" href="" >
+                <p  class="type turismo_type mb-lg-0 mb-0"></p>
+                <a href="#" > <p class="title turismo_title mb-lg-0 mb-5"></p>
+                <p class="min-text turismo_description mb-lg-0"></p>
+              </a>
+            </div>
+            <div class="arrow float-left">
+              <a id="link_turismo" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-country">
+            <p class="mb-lg-0" >Brasil +</p>
+        </div>
+      </div>
+    </section>
+    <section id="mundo">
+      <div class="container">
+        <div class="row  mini-noticias">
+            <div class="col-12 country">
+              <p class="mb-0 " id="section_name_mundo"></p>
+            </div>
+            <div class="col-12 col-lg-3  noticia-col ">
+              <img id="img_feriado" src="" class=" img-fluid img-responsive">
+              <div class="texto">
+                <a href="#" >
+                  <p  class="type feriado_type mb-lg-0 mb-0"></p>
+                  <p class="title feriado_title mb-5 mb-lg-0"></p>
+                  <p class="min-text feriado_description mb-lg-0 mb-3"></p>
+                </a>
+              </div>
+              <div class="arrow float-left">
+              <a id="link_feriado" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+            </div>
+            </div>
+            <div class="col-12 col-lg-3 noticia-col">
+              <hr class="d-lg-none d-block">
+              <img  id="img_agricultura" src="" class=" img-fluid img-responsive">
+              <div class="texto ">
+                <a id="link_agricultura" href="" >
+                  <p  class="type agricultura_type mb-lg-0"></p>
+                  <p class="title agricultura_title  mb-4 mb-lg-0"></p>
+                  <p class="min-text agricultura_description mb-lg-0"></p>
+                </a>
+              </div>
+              <div class="arrow float-left">
+                <a id="link_agricultura" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 noticia-col">
+              <hr class="d-lg-none d-block">
+              <img id="img_internacional" src="" class=" img-fluid img-responsive">
+              <div class="texto">
+                <a id="link_internacional" href="" > 
+                  <p  class="type internacional_type mb-lg-0 mb-0"></p>
+                  <p class="title internacional_title mb-4 mb-lg-0"></p>
+                  <p class="min-text internacional_description mb-lg-0 "></p>
+                  </a>
+              </div>
+              <div class="arrow float-left">
+                <a id="link_internacional" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 noticia-col">
+              <hr class="d-lg-none d-block">
+              <img id="img_onu" src="" class=" img-fluid img-responsive">
+              <div class="texto">
+                <a href="#" > 
+                  <p  class="type onu_type mb-lg-0"></p>
+                  <p class="title onu_title mb-4 mb-lg-0"></p>
+                  <p class="min-text onu_description mb-lg-0"></p>
+                </a>
+              </div>
+              <div class="arrow float-left">
+                <a id="link_onu" href=""  class="share" ><img  src="assets/media/share-square.svg" alt="Logo" /></a>
+              </div>
+            </div>
+        </div>
+        <div class="row footer-country">
+            <p class="mb-0">Mundo +</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer container">
+        <div class="row">
+          <div class="col-lg-6 col-12 col-lg-6">
+            <a href="#"><img src="assets/media/logo-footer.png" class=" img-fluid img-responsive"></a>
+          </div>
+          <div class="col-12 col-lg-6 footer__copyright">
+            <p class="mb-lg-0">Copyright © 2017</p>
+            <span>Todos os direitos reservados</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/fontawesome-all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script-->
+
+            
+  </body>
+</html>
